@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8CC61E1D-672A-42B0-B6B2-D5BC1713506D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE59C5B3-8BEB-4F08-A677-F616C3FB3617"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZERO/Views/AddView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "DE59C5B3-8BEB-4F08-A677-F616C3FB3617 - bc702ff983b1307d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZERO.AddView.init() -&gt; ZERO.AddView"
+                  moduleName = "ZERO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/90308209/Documents/iOSProjects2022/ZERO/ZERO/Views/AddView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "DE59C5B3-8BEB-4F08-A677-F616C3FB3617 - 46122a9dc9bd5a57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZERO.AddView.init(textFieldText: Swift.String) -&gt; ZERO.AddView"
+                  moduleName = "ZERO"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/90308209/Documents/iOSProjects2022/ZERO/ZERO/Views/AddView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
