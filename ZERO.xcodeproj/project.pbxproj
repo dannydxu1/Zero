@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB78BA3227FB4BF3006B29A5 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB78BA3127FB4BF3006B29A5 /* ItemModel.swift */; };
+		BB78BA3727FB511F006B29A5 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB78BA3627FB511F006B29A5 /* ListViewModel.swift */; };
 		BBC2DBF827F7530800403BEC /* ZEROApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC2DBF727F7530800403BEC /* ZEROApp.swift */; };
 		BBC2DBFC27F7530B00403BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC2DBFB27F7530B00403BEC /* Assets.xcassets */; };
 		BBC2DBFF27F7530B00403BEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC2DBFE27F7530B00403BEC /* Preview Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB78BA3127FB4BF3006B29A5 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		BB78BA3627FB511F006B29A5 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		BBC2DBF427F7530800403BEC /* ZERO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZERO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC2DBF727F7530800403BEC /* ZEROApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZEROApp.swift; sourceTree = "<group>"; };
 		BBC2DBFB27F7530B00403BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +40,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB78BA3027FB4BE0006B29A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB78BA3127FB4BF3006B29A5 /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB78BA3327FB50DE006B29A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BB78BA3627FB511F006B29A5 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		BBC2DBEB27F7530800403BEC = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				BBC2DBF727F7530800403BEC /* ZEROApp.swift */,
+				BB78BA3027FB4BE0006B29A5 /* Models */,
+				BB78BA3327FB50DE006B29A5 /* ViewModels */,
 				BBC2DC0527F754FB00403BEC /* Views */,
 				BBC2DBFB27F7530B00403BEC /* Assets.xcassets */,
 				BBC2DBFD27F7530B00403BEC /* Preview Content */,
@@ -151,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB78BA3227FB4BF3006B29A5 /* ItemModel.swift in Sources */,
 				BBC2DC0B27F7596800403BEC /* AddView.swift in Sources */,
+				BB78BA3727FB511F006B29A5 /* ListViewModel.swift in Sources */,
 				BBC2DBF827F7530800403BEC /* ZEROApp.swift in Sources */,
 				BBC2DC0727F7550500403BEC /* ListView.swift in Sources */,
 				BBC2DC0927F757D000403BEC /* ListRowView.swift in Sources */,
